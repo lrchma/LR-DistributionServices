@@ -1,0 +1,323 @@
+{
+    "template" : "lr-alarms-*",
+    "settings" : {
+      "index" : {
+        "refresh_interval" : "5s"
+      }
+    },
+        "mappings": {
+            "_default_": {
+        "dynamic_templates" : [
+          {
+            "message_field" : {
+              "path_match" : "message",
+              "mapping" : {
+                "norms" : false,
+                "type" : "text"
+              },
+              "match_mapping_type" : "string"
+            }
+          },
+          {
+            "string_fields" : {
+              "mapping" : {
+                "norms" : false,
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              },
+              "match_mapping_type" : "string",
+              "match" : "*"
+            }
+          }
+        ],
+                "_all": {
+                    "enabled": true,
+                    "norms": false
+                },
+                "properties": {
+                    "Action": {
+                        "type": "keyword"
+                    },
+"geoip" : {
+            "dynamic" : true,
+            "properties" : {
+              "ip" : {
+                "type" : "ip"
+              },
+              "latitude" : {
+                "type" : "half_float"
+              },
+              "location" : {
+                "type" : "geo_point"
+              },
+              "longitude" : {
+                "type" : "half_float"
+              }
+            }
+          },
+
+                    "AlarmDate": {
+                        "type": "date"
+                    },
+                    "AlarmID": {
+                        "type": "integer"
+                    },
+                    "AlarmRuleDescription": {
+                        "type": "string"
+                    },
+                    "AlarmRuleID": {
+                        "type": "integer"
+                    },
+                    "AlarmRuleName": {
+                        "type": "keyword"
+                    },
+                    "AlarmURL": {
+                        "type": "keyword"
+                    },
+                    "Amount": {
+                        "type": "float"
+                    },
+                    "Application": {
+                        "type": "keyword"
+                    },
+                    "CVE": {
+                        "type": "keyword"
+                    },
+                    "Classification": {
+                        "type": "keyword"
+                    },
+                    "Command": {
+                        "type": "keyword"
+                    },
+                    "CommonEvent": {
+                        "type": "keyword"
+                    },
+                    "DHostName": {
+                        "type": "keyword"
+                    },
+                    "DNATPort": {
+                        "type": "integer"
+                    },
+                    "Direction": {
+                        "type": "keyword"
+                    },
+                    "DomainImpacted": {
+                        "type": "keyword"
+                    },
+                    "DomainOrigin": {
+                        "type": "keyword"
+                    },
+                    "Duration": {
+                        "type": "float"
+                    },
+                    "EntityNameImpacted": {
+                        "type": "keyword"
+                    },
+                    "EntityNameOrigin": {
+                        "type": "keyword"
+                    },
+                    "EventCount": {
+                        "type": "integer"
+                    },
+                    "EventDate": {
+                        "type": "date"
+                    },
+                    "Group": {
+                        "type": "keyword"
+                    },
+                    "Hash": {
+                        "type": "keyword"
+                    },
+                    "HostImpactedKBytesReceived": {
+                        "type": "float"
+                    },
+                    "HostImpactedKBytesSent": {
+                        "type": "float"
+                    },
+                    "HostImpactedPacketsReceived": {
+                        "type": "float"
+                    },
+                    "HostImpactedPacketsSent": {
+                        "type": "float"
+                    },
+                    "InterfaceImpacted": {
+                        "type": "keyword"
+                    },
+                    "InterfaceOrigin": {
+                        "type": "keyword"
+                    },
+                    "LocationImpacted": {
+                        "type": "keyword"
+                    },
+                    "LocationOrigin": {
+                        "type": "keyword"
+                    },
+                    "LogSourceInformation": {
+                        "type": "keyword"
+                    },
+                    "MACAddressImpacted": {
+                        "type": "keyword"
+                    },
+                    "MACAddressOrigin": {
+                        "type": "keyword"
+                    },
+                    "MPERuleName": {
+                        "type": "keyword"
+                    },
+                    "NATIPAddressImpacted": {
+                        "type": "keyword"
+                    },
+                    "NATIPAddressOrigin": {
+                        "type": "keyword"
+                    },
+                    "NetworkImpacted": {
+                        "type": "keyword"
+                    },
+                    "NetworkOrigin": {
+                        "type": "keyword"
+                    },
+                    "Object": {
+                        "type": "keyword"
+                    },
+                    "ObjectName": {
+                        "type": "keyword"
+                    },
+                    "ObjectType": {
+                        "type": "keyword"
+                    },
+                    "ParentProcessID": {
+                        "type": "integer"
+                    },
+                    "ParentProcessName": {
+                        "type": "keyword"
+                    },
+                    "ParentProcessPath": {
+                        "type": "keyword"
+                    },
+                    "Policy": {
+                        "type": "keyword"
+                    },
+                    "ProcessID": {
+                        "type": "integer"
+                    },
+                    "ProcessName": {
+                        "type": "keyword"
+                    },
+                    "Protocol": {
+                        "type": "keyword"
+                    },
+                    "Quantity": {
+                        "type": "float"
+                    },
+                    "Rate": {
+                        "type": "float"
+                    },
+                    "RawLog": {
+                        "type": "string"
+                    },
+                    "Reason": {
+                        "type": "keyword"
+                    },
+                    "Recipient": {
+                        "type": "keyword"
+                    },
+                    "RecipientIdentityID": {
+                        "type": "keyword"
+                    },
+                    "ResponseCode": {
+                        "type": "keyword"
+                    },
+                    "Result": {
+                        "type": "keyword"
+                    },
+                    "RiskBasedPriority": {
+                        "type": "float"
+                    },
+                    "SHostName": {
+                        "type": "keyword"
+                    },
+                    "SNATPort": {
+                        "type": "integer"
+                    },
+                    "Sender": {
+                        "type": "keyword"
+                    },
+                    "SenderIdentityID": {
+                        "type": "keyword"
+                    },
+                    "SerialNumber": {
+                        "type": "keyword"
+                    },
+                    "Session": {
+                        "type": "keyword"
+                    },
+                    "SessionType": {
+                        "type": "keyword"
+                    },
+                    "Severity": {
+                        "type": "keyword"
+                    },
+                    "Size": {
+                        "type": "float"
+                    },
+                    "Status": {
+                        "type": "keyword"
+                    },
+                    "Subject": {
+                        "type": "keyword"
+                    },
+                    "TCPUDPPortImpacted": {
+                        "type": "integer"
+                    },
+                    "TCPUDPPortOrigin": {
+                        "type": "integer"
+                    },
+                    "ThreatID": {
+                        "type": "keyword"
+                    },
+                    "ThreatName": {
+                        "type": "keyword"
+                    },
+                    "URL": {
+                        "type": "keyword"
+                    },
+                    "UserAgent": {
+                        "type": "keyword"
+                    },
+                    "UserImpacted": {
+                        "type": "keyword"
+                    },
+                    "UserImpactedIdentityID": {
+                        "type": "keyword"
+                    },
+                    "UserOriginIdentity": {
+                        "type": "keyword"
+                    },
+                    "UserOriginIdentityID": {
+                        "type": "keyword"
+                    },
+                    "VendorInfo": {
+                        "type": "keyword"
+                    },
+                    "VendorMessageID": {
+                        "type": "keyword"
+                    },
+                    "Version": {
+                        "type": "keyword"
+                    },
+                    "ZoneImpacted": {
+                        "type": "keyword"
+                    },
+                    "ZoneOrigin": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        },
+    "aliases" : { }
+    }

@@ -1,0 +1,480 @@
+{
+    "template" : "lr-lds-active-*",
+    "settings" : {
+        "refresh_interval" : "5s"
+    },
+    "mappings" : {
+      "_default_" : {
+        "dynamic_templates" : [
+          {
+            "message_field" : {
+              "path_match" : "message",
+              "mapping" : {
+                "norms" : false,
+                "type" : "text"
+              },
+              "match_mapping_type" : "string"
+            }
+          },
+          {
+            "string_fields" : {
+              "mapping" : {
+                "norms" : false,
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              },
+              "match_mapping_type" : "string",
+              "match" : "*"
+            }
+          }
+        ],
+        "_all" : {
+          "norms" : false,
+          "enabled" : true
+        },
+        "properties" : {
+          "Account" : {
+            "type" : "keyword"
+          },
+          "DPort" : {
+            "type" : "integer"
+          },
+          "IsDNameParsedValue" : {
+            "type" : "boolean"
+          },
+          "DNetworkID" : {
+            "type" : "integer"
+          },
+          "Archive" : {
+            "type" : "boolean"
+          },
+          "DLocationKey" : {
+            "type" : "string"
+          },
+          "Size" : {
+            "type" : "keyword"
+          },
+          "FalseAlarmRating" : {
+            "type" : "integer"
+          },
+          "DName" : {
+            "type" : "string"
+          },
+          "Hash" : {
+            "type" : "keyword"
+          },
+          "SInterface" : {
+            "type" : "keyword"
+          },
+          "SNameParsed" : {
+            "type" : "keyword"
+          },
+          "RiskRating" : {
+            "type" : "float"
+          },
+          "VendorInfo" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentityDepartment" : {
+            "type" : "keyword"
+          },
+          "SenderIdentityDepartment" : {
+            "type" : "keyword"
+          },
+          "UserImpactedIdentityTitle" : {
+            "type" : "keyword"
+          },
+          "IgnoreGlobalRBPCriteria" : {
+            "type" : "boolean"
+          },
+          "Status" : {
+            "type" : "keyword"
+          },
+          "SenderIdentityCompany" : {
+            "type" : "keyword"
+          },
+          "SHostID" : {
+            "type" : "integer"
+          },
+          "Rate" : {
+            "type" : "integer"
+          },
+          "ForwardToLogMart" : {
+            "type" : "boolean"
+          },
+          "Login" : {
+            "type" : "keyword"
+          },
+          "MPERuleID" : {
+            "type" : "long"
+          },
+          "SenderIdentityID" : {
+            "type" : "integer"
+          },
+          "VendorMsgID" : {
+            "type" : "keyword"
+          },
+          "RecipientIdentityDepartment" : {
+            "type" : "string"
+          },
+          "Sender" : {
+            "type" : "keyword"
+          },
+          "CVE" : {
+            "type" : "keyword"
+          },
+          "DNameParsed" : {
+            "type" : "boolean"
+          },
+          "DomainOrigin" : {
+            "type" : "keyword"
+          },
+          "CommonEventID" : {
+            "type" : "float"
+          },
+          "Object" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentity" : {
+            "type" : "keyword"
+          },
+          "HasBeenQueued_LogProcessor" : {
+            "type" : "boolean"
+          },
+          "RecipientIdentityTitle" : {
+            "type" : "string"
+          },
+          "Group" : {
+            "type" : "keyword"
+          },
+          "UserImpactedIdentityID" : {
+            "type" : "integer"
+          },
+          "DateInserted" : {
+            "type" : "string"
+          },
+          "ThreatId" : {
+            "type" : "keyword"
+          },
+          "SenderIdentity" : {
+            "type" : "keyword"
+          },
+          "DMAC" : {
+            "type" : "keyword"
+          },
+          "Direction" : {
+            "type" : "integer"
+          },
+          "URL" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentityID" : {
+            "type" : "integer"
+          },
+          "ObjectType" : {
+            "type" : "keyword"
+          },
+          "RecipientIdentity" : {
+            "type" : "keyword"
+          },
+          "DNATIP" : {
+            "type" : "keyword"
+          },
+          "HasBeenInserted_EMDB" : {
+            "type" : "boolean"
+          },
+          "EventClassification" : {
+            "type" : "keyword"
+          },
+          "DNameResolved" : {
+            "type" : "keyword"
+          },
+          "MediatorSessionID" : {
+            "type" : "integer"
+          },
+          "IsRemote" : {
+            "type" : "boolean"
+          },
+          "ResponseCode" : {
+            "type" : "keyword"
+          },
+          "Amount" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentityTitle" : {
+            "type" : "string"
+          },
+          "RawLog" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentityDomain" : {
+            "type" : "keyword"
+          },
+          "DIP" : {
+            "type" : "ip",
+            "ignore_malformed" : true
+          },
+          "PID" : {
+            "type" : "keyword"
+          },
+          "CollectionSequence" : {
+            "type" : "long"
+          },
+          "DHostID" : {
+            "type" : "integer"
+          },
+          "@timestamp" : {
+            "include_in_all" : false,
+            "type" : "date"
+          },
+          "MsgClassID" : {
+            "type" : "integer"
+          },
+          "Forward" : {
+            "type" : "boolean"
+          },
+          "SNATIP" : {
+            "type" : "keyword"
+          },
+          "SenderIdentityTitle" : {
+            "type" : "string"
+          },
+          "MsgDateOrigin" : {
+            "type" : "string"
+          },
+          "RecipientIdentityDomain" : {
+            "type" : "string"
+          },
+          "Aggregate" : {
+            "type" : "boolean"
+          },
+          "Policy" : {
+            "type" : "keyword"
+          },
+          "UniqueID" : {
+            "type" : "keyword"
+          },
+          "MsgSourceHostID" : {
+            "type" : "float"
+          },
+          "RecipientIdentityCompany" : {
+            "type" : "string"
+          },
+          "SNetworkID" : {
+            "type" : "string"
+          },
+          "ParentProcessId" : {
+            "type" : "string"
+          },
+          "SenderIdentityDomain" : {
+            "type" : "string"
+          },
+          "IsSNameParsedValue" : {
+            "type" : "string"
+          },
+          "Process" : {
+            "type" : "keyword"
+          },
+          "NormalMsgDate" : {
+            "type" : "string"
+          },
+          "HasBeenQueued_Archiving" : {
+            "type" : "boolean"
+          },
+          "Result" : {
+            "type" : "keyword"
+          },
+          "LogMartMode" : {
+            "type" : "integer"
+          },
+          "BytesOut" : {
+            "type" : "float"
+          },
+          "UserImpactedIdentityDomain" : {
+            "type" : "string"
+          },
+          "Version" : {
+            "type" : "keyword"
+          },
+          "RecipientIdentityID" : {
+            "type" : "string"
+          },
+          "DropRaw" : {
+            "type" : "boolean"
+          },
+          "ItemsOut" : {
+            "type" : "keyword"
+          },
+          "SNameResolved" : {
+            "type" : "keyword"
+          },
+          "ProtocolID" : {
+            "type" : "integer"
+          },
+          "GLPRAssignedRBP" : {
+            "type" : "integer"
+          },
+          "ParentProcessName" : {
+            "type" : "keyword"
+          },
+          "Priority" : {
+            "type" : "keyword"
+          },
+          "UserImpactedIdentityCompany" : {
+            "type" : "string"
+          },
+          "Duration" : {
+            "type" : "integer"
+          },
+          "Recipient" : {
+            "type" : "keyword"
+          },
+          "ServiceID" : {
+            "type" : "integer"
+          },
+          "MediatorMsgID" : {
+            "type" : "integer"
+          },
+          "SerialNumber" : {
+            "type" : "keyword"
+          },
+          "DropLog" : {
+            "type" : "boolean"
+          },
+          "MsgSourceID" : {
+            "type" : "float"
+          },
+          "BytesIn" : {
+            "type" : "float"
+          },
+          "SNATPort" : {
+            "type" : "integer"
+          },
+          "HasBeenQueued_EventProcessor" : {
+            "type" : "boolean"
+          },
+          "UserImpactedIdentity" : {
+            "type" : "string"
+          },
+          "SIP" : {
+            "type" : "ip",
+            "ignore_malformed" : true
+          },
+          "DInterface" : {
+            "type" : "integer"
+          },
+          "Domain" : {
+            "type" : "keyword"
+          },
+          "ItemsIn" : {
+            "type" : "keyword"
+          },
+          "Action" : {
+            "type" : "keyword"
+          },
+          "SessionType" : {
+            "type" : "keyword"
+          },
+          "SPort" : {
+            "type" : "integer"
+          },
+          "SHostZone" : {
+            "type" : "integer"
+          },
+          "SName" : {
+            "type" : "keyword"
+          },
+          "HostID" : {
+            "type" : "integer"
+          },
+          "Reason" : {
+            "type" : "keyword"
+          },
+          "UserAgent" : {
+            "type" : "keyword"
+          },
+          "@version" : {
+            "include_in_all" : false,
+            "type" : "keyword"
+          },
+          "SMAC" : {
+            "type" : "keyword"
+          },
+          "SystemMonitorID" : {
+            "type" : "float"
+          },
+          "ParentProcessPath" : {
+            "type" : "keyword"
+          },
+          "MsgCount" : {
+            "type" : "integer"
+          },
+          "geoip" : {
+            "dynamic" : true,
+            "properties" : {
+              "ip" : {
+                "type" : "ip"
+              },
+              "latitude" : {
+                "type" : "half_float"
+              },
+              "location" : {
+                "type" : "geo_point"
+              },
+              "longitude" : {
+                "type" : "half_float"
+              }
+            }
+          },
+          "MsgDate" : {
+            "type" : "string"
+          },
+          "Quantity" : {
+            "type" : "integer"
+          },
+          "Severity" : {
+            "type" : "keyword"
+          },
+          "ThreatName" : {
+            "type" : "keyword"
+          },
+          "Subject" : {
+            "type" : "keyword"
+          },
+          "ObjectName" : {
+            "type" : "keyword"
+          },
+          "EntityId" : {
+            "type" : "integer"
+          },
+          "EventCommonEventID" : {
+            "type" : "float"
+          },
+          "Command" : {
+            "type" : "keyword"
+          },
+          "UserOriginIdentityCompany" : {
+            "type" : "string"
+          },
+          "DHostZone" : {
+            "type" : "integer"
+          },
+          "DNATPort" : {
+            "type" : "float"
+          },
+          "SLocationKey" : {
+            "type" : "string"
+          },
+          "Session" : {
+            "type" : "keyword"
+          }
+        }
+      }
+    },
+    "aliases" : { }
+  }
