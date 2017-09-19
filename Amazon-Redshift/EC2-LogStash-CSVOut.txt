@@ -1,0 +1,38 @@
+input {
+    tcp {
+        port => 5514
+        type => syslog
+    }
+}
+
+filter {
+ grok {
+  match => { "message" => '^%{SYSLOG5424PRI}%{CISCOTIMESTAMP} %{IP:host}(/[^\s]+)? %{DATA:process}: %{GREEDYDATA:kvpairs}$' }
+  add_field => [ "received_at", "%{@timestamp}" ]
+ }
+
+ date{
+  match => [ "normalmsgdate", "M/dd/yyyy hh:mm:ss a" ]
+ }
+
+ kv{
+  source => "kvpairs"
+  trim_value => '"'
+  field_split => " "
+  value_split => "="
+ }
+
+}
+
+
+
+
+output {
+ csv {
+   path => "/s3mnt/lrlds-%{+YYYY-MM-dd}.log"
+   fields => ["Account","Action","Aggregate","Amount","Archive","BytesIn","BytesOut","CollectionSequence","Command","CommonEventID","CVE","DateInserted","DHostID","DHostZone","DInterface","DIP","Direction","DLocationKey","DMAC","DName","DNameParsed","DNameResolved","DNATIP","DNATPort","DNetworkID","Domain","DomainOrigin","DPort","DropLog","DropRaw","Duration","EntityId","EventClassification","EventCommonEventID","FalseAlarmRating","Forward","ForwardToLogMart","GLPRAssignedRBP","Group","HasBeenInserted_EMDB","HasBeenQueued_Archiving","HasBeenQueued_EventProcessor","HasBeenQueued_LogProcessor","Hash","HostID","IgnoreGlobalRBPCriteria","IsDNameParsedValue","IsRemote","IsSNameParsedValue","ItemsIn","ItemsOut","Login","LogMartMode","MediatorMsgID","MediatorSessionID","MPERuleID","MsgClassID","MsgCount","MsgDate","MsgDateOrigin","MsgSourceHostID","MsgSourceID","NormalMsgDate","Object","ObjectName","ObjectType","ParentProcessId","ParentProcessName","ParentProcessPath","PID","Policy","Priority","Process","ProtocolID","Quantity","Rate","Reason","Recipient","RecipientIdentity","RecipientIdentityCompany","RecipientIdentityDepartment","RecipientIdentityDomain","RecipientIdentityID","RecipientIdentityTitle","ResponseCode","Result","RiskRating","Sender","SenderIdentity","SenderIdentityCompany","SenderIdentityDepartment","SenderIdentityDomain","SenderIdentityID","SenderIdentityTitle","SerialNumber","ServiceID","Session","SessionType","Severity","SHostID","SHostZone","SInterface","SIP","Size","SLocationKey","SMAC","SName","SNameParsed","SNameResolved","SNATIP","SNATPort","SNetworkID","SPort","Status","Subject","SystemMonitorID","ThreatId","ThreatName","timestamp","UniqueID","URL","UserAgent","UserImpactedIdentity","UserImpactedIdentityCompany","UserImpactedIdentityDomain","UserImpactedIdentityID","UserImpactedIdentityTitle","UserOriginIdentity","UserOriginIdentityCompany","UserOriginIdentityDepartment","UserOriginIdentityDomain","UserOriginIdentityID","UserOriginIdentityTitle","VendorInfo","VendorMsgID","Version"]
+  }
+
+  stdout { codec => rubydebug }
+
+}

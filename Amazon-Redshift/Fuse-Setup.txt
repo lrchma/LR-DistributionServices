@@ -1,0 +1,7 @@
+# mkdir /tmp/cache
+# mkdir /s3mnt
+# chmod 777 /tmp/cache /s3mnt
+
+# s3fs -o use_cache=/tmp/cache mydbbackup /s3mnt
+
+https://github.com/s3fs-fuse/s3fs-fuse/wiki/Installation-Notes

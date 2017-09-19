@@ -1,0 +1,19 @@
+#start flume
+cd /usr/lib/flume-ng/
+sudo ./bin/flume-ng agent --conf conf -conf-file conf/flume-hdfs-sink.conf --name agent1
+
+#delete apache flume data in hadoop
+hadoop fs -rmr hdfs://quickstart.cloudera:8020/tmp/system.log/*
+
+#cat & filter LR LDS into CSV format
+#remove LR syslog header, replace spaces with comma, print on values, and replace \ with \\ if any exist
+hadoop fs -cat hdfs://quickstart.cloudera:8020/tmp/system.log/* | grep -i logrhythm: | sed -r 's/^.*?logrhythm: /,/g' | sed -r 's/" /",/g' |  awk 'BEGIN{FS="=";RS=",";ORS=",";}{print $2}' | sed -r 's/^,//g' | sed -r 's/\\/\\\\/g'  >> lds2.csv
+
+
+
+#Load Data from CSV
+LOAD DATA INPATH '/user/cloudera/lrlds/lds2.csv' INTO TABLE logrhythm.lds1;
+
+
+#convert LR timestamp to timestamp
+select FROM_UNIXTIME(UNIX_TIMESTAMP(normalmsgdate, "MM/dd/yyyy hh:mm:ss a")) from lds1 where FROM_UNIXTIME(UNIX_TIMESTAMP(normalmsgdate, "MM/dd/yyyy hh:mm:ss a")) > '2017-09-14 00:00:00';
