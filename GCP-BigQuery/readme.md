@@ -2,6 +2,9 @@
 
 This folder contains example reference for setting up and sending LogRhythm MDI (Machine Data Intelligence) into Google BigQuery.
 
+```
+LogRhythm -> LDS over Syslog -> GCP Compute Instance running LogStash -> GCP Storage in CSV format -> Google BigQuery
+```
 
 ## LogStash Setup
 
