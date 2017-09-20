@@ -1,5 +1,7 @@
 # LogRhythm Distribution Services into Google BigQuery
 
+** Please note, this is not official LogRhythm config or instructions, nor supported by LogRhythm. Use at own risk! **
+
 This folder contains example reference for setting up and sending LogRhythm MDI (Machine Data Intelligence) into Google BigQuery.
 
 ```
@@ -10,6 +12,10 @@ LogRhythm MDI -> LDS over Syslog -> GCP Compute running LogStash -> CSV output i
 
 Elastic's LogStash is used to convert LogRhythm's Key-Pair Value format into CSV, a mechanism to receive Syslog, write out LR MDI into time based and optionally perform further enrichment or filtering as required, e.g,. splitting the NormalMsgDate into DAY field.
 
+Install the LR-LDS template:
+```curl -XPUT localhost:9200/_template/lr-lds-active -d@/tmp/lr-lds-template.json```
+
+Logstash.conf
 ```input
 {
     syslog
@@ -61,6 +67,16 @@ csv {
            
 }
 ```
+
+Note, if you don't have the appropriate LogStash plugins installed, you may need add them as follows:
+```/opt/bitnami/logstash# ./bin/logstash-plugin install logstash-filter-prune```
+
+
+### Google FUSE Setup
+One method to easily get data into GCP Storage is using Google FUSE.
+
+https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md
+
 
 ## Google BigQuery Setup
 
