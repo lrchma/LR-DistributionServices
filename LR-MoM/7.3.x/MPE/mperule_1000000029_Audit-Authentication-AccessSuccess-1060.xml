@@ -1,0 +1,4429 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.3.2.0</ExportConsoleVersion>
+    <KBVersion>7.1.431.1</KBVersion>
+    <DateExported>2018-03-01T00:27:26.6609386+00:00</DateExported>
+    <ExportLicense>646</ExportLicense>
+    <ExportUser>logrhythmadmin</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000004059</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>20886</CommonEventID>
+    <CommonEventName>General Logging Information</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Audit-Authentication-AccessSuccess-1060</Name>
+    <FullName>Audit-Authentication-AccessSuccess-1060</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-03-01T00:24:58.297+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003996</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034704</CommonEventID>
+    <CommonEventName>AIE: PCI-DSS: Audit Log Cleared Alert Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>PCI-DSS: Audit Log Cleared Alert Rule</Name>
+    <FullName>PCI-DSS: Audit Log Cleared Alert Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034704</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.943+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003997</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036223</CommonEventID>
+    <CommonEventName>AIE: PCI-DSS: Audit Log Cleared Alert</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>PCI-DSS: Audit Log Cleared Alert</Name>
+    <FullName>PCI-DSS: Audit Log Cleared Alert</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036223</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.943+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003998</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10441</CommonEventID>
+    <CommonEventName>Object Renamed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Renamed</Name>
+    <FullName>Object Renamed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=10441</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.947+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000003999</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1029892</CommonEventID>
+    <CommonEventName>Object Read</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Read</Name>
+    <FullName>Object Read</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1029892</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.947+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004000</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>19872</CommonEventID>
+    <CommonEventName>Object Moved</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Moved</Name>
+    <FullName>Object Moved</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=19872</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.947+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004001</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>10410</CommonEventID>
+    <CommonEventName>Object Modified</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Modified</Name>
+    <FullName>Object Modified</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=10410</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.95+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004002</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032399</CommonEventID>
+    <CommonEventName>Object Initialized</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Initialized</Name>
+    <FullName>Object Initialized</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032399</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.95+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004003</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032400</CommonEventID>
+    <CommonEventName>Object Downloaded</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Downloaded</Name>
+    <FullName>Object Downloaded</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032400</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.95+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004004</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032397</CommonEventID>
+    <CommonEventName>Object Deleted/Removed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Deleted/Removed</Name>
+    <FullName>Object Deleted/Removed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032397</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.953+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004005</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>8966</CommonEventID>
+    <CommonEventName>Object Created</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Created</Name>
+    <FullName>Object Created</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=8966</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.953+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004006</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>8963</CommonEventID>
+    <CommonEventName>Object Closed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Closed</Name>
+    <FullName>Object Closed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=8963</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.953+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004007</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>19949</CommonEventID>
+    <CommonEventName>Object Attribute Modified</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Attribute Modified</Name>
+    <FullName>Object Attribute Modified</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=19949</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.957+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004008</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032398</CommonEventID>
+    <CommonEventName>Object Added</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Added</Name>
+    <FullName>Object Added</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032398</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.957+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004009</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1021382</CommonEventID>
+    <CommonEventName>Object Accessed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Accessed</Name>
+    <FullName>Object Accessed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1021382</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.96+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004010</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034933</CommonEventID>
+    <CommonEventName>AIE: NIST 800-53 : Term Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>NIST 800-53 : Term Act Access Success Rule</Name>
+    <FullName>NIST 800-53 : Term Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034933</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.96+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004011</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034881</CommonEventID>
+    <CommonEventName>AIE: NIST 800-53 : Door Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>NIST 800-53 : Door Access Success Rule</Name>
+    <FullName>NIST 800-53 : Door Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034881</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.963+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004012</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034877</CommonEventID>
+    <CommonEventName>AIE: NIST 800-53 : Default Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>NIST 800-53 : Default Act Access Success Rule</Name>
+    <FullName>NIST 800-53 : Default Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034877</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.963+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004013</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034868</CommonEventID>
+    <CommonEventName>AIE: NIST 800-53 : Audit Log Cleared Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>NIST 800-53 : Audit Log Cleared Rule</Name>
+    <FullName>NIST 800-53 : Audit Log Cleared Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034868</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.967+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004014</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035884</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP: Physical Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>NERC-CIP: Physical Access Success Rule</Name>
+    <FullName>NERC-CIP: Physical Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035884</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.967+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004015</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036180</CommonEventID>
+    <CommonEventName>AIE: MAS: Vendor Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Vendor Acct Access Success Rule</Name>
+    <FullName>MAS: Vendor Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036180</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.97+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004016</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036192</CommonEventID>
+    <CommonEventName>AIE: MAS: Shared Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Shared Acct Access Success Rule</Name>
+    <FullName>MAS: Shared Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036192</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.97+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004017</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036177</CommonEventID>
+    <CommonEventName>AIE: MAS: Priv Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Priv Acct Access Success Rule</Name>
+    <FullName>MAS: Priv Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036177</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.97+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004018</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036214</CommonEventID>
+    <CommonEventName>AIE: MAS: Online Banking Accs Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Online Banking Accs Success Rule</Name>
+    <FullName>MAS: Online Banking Accs Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036214</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.97+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004019</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036204</CommonEventID>
+    <CommonEventName>AIE: MAS: IT Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: IT Acct Access Success Rule</Name>
+    <FullName>MAS: IT Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036204</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.973+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004020</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036172</CommonEventID>
+    <CommonEventName>AIE: MAS: HR Payroll Acct Accs Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: HR Payroll Acct Accs Success Rule</Name>
+    <FullName>MAS: HR Payroll Acct Accs Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036172</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.973+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004021</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036186</CommonEventID>
+    <CommonEventName>AIE: MAS: Default Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Default Acct Access Success Rule</Name>
+    <FullName>MAS: Default Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036186</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.973+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004022</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036198</CommonEventID>
+    <CommonEventName>AIE: MAS: BU Acct Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: BU Acct Access Success Rule</Name>
+    <FullName>MAS: BU Acct Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036198</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.977+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004023</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036157</CommonEventID>
+    <CommonEventName>AIE: MAS: Audit Log Cleared Alert</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>MAS: Audit Log Cleared Alert</Name>
+    <FullName>MAS: Audit Log Cleared Alert</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036157</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.977+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004024</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034658</CommonEventID>
+    <CommonEventName>Log Cleared</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Log Cleared</Name>
+    <FullName>Log Cleared</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034658</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.977+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004025</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035852</CommonEventID>
+    <CommonEventName>AIE: ISO-27001: Term Act Access Success</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>ISO-27001: Term Act Access Success</Name>
+    <FullName>ISO-27001: Term Act Access Success</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035852</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.98+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004026</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036050</CommonEventID>
+    <CommonEventName>AIE: HSS: Door Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>HSS: Door Access Success Rule</Name>
+    <FullName>HSS: Door Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036050</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.98+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004027</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1036057</CommonEventID>
+    <CommonEventName>AIE: HSS: Default Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>HSS: Default Act Access Success Rule</Name>
+    <FullName>HSS: Default Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1036057</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.98+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004028</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032408</CommonEventID>
+    <CommonEventName>File Monitoring Event - SYSTEM Attribute Set</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - SYSTEM Attribute Set</Name>
+    <FullName>File Monitoring Event - SYSTEM Attribute Set</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032408</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.98+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004029</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032407</CommonEventID>
+    <CommonEventName>File Monitoring Event - SYSTEM Attribute Clear</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - SYSTEM Attribute Clear</Name>
+    <FullName>File Monitoring Event - SYSTEM Attribute Clear</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032407</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.983+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004030</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032414</CommonEventID>
+    <CommonEventName>File Monitoring Event - System ACL Changed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - System ACL Changed</Name>
+    <FullName>File Monitoring Event - System ACL Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032414</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.983+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004031</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032402</CommonEventID>
+    <CommonEventName>File Monitoring Event - Rename</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Rename</Name>
+    <FullName>File Monitoring Event - Rename</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032402</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.987+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004032</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032406</CommonEventID>
+    <CommonEventName>File Monitoring Event - READ-ONLY Attribute Set</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - READ-ONLY Attribute Set</Name>
+    <FullName>File Monitoring Event - READ-ONLY Attribute Set</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032406</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:58.987+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004033</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032405</CommonEventID>
+    <CommonEventName>File Monitoring Event - READ-ONLY Attribute Clear</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - READ-ONLY Attribute Clear</Name>
+    <FullName>File Monitoring Event - READ-ONLY Attribute Clear</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032405</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.043+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004034</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2447</CommonEventID>
+    <CommonEventName>File Monitoring Event - Permissions</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Permissions</Name>
+    <FullName>File Monitoring Event - Permissions</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2447</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.39+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004035</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032413</CommonEventID>
+    <CommonEventName>File Monitoring Event - Owner Changed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Owner Changed</Name>
+    <FullName>File Monitoring Event - Owner Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032413</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.39+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004036</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032410</CommonEventID>
+    <CommonEventName>File Monitoring Event - No Modify But Hash Changed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - No Modify But Hash Changed</Name>
+    <FullName>File Monitoring Event - No Modify But Hash Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032410</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.39+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004037</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032409</CommonEventID>
+    <CommonEventName>File Monitoring Event - Modify With Unchanged Hash</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Modify With Unchanged Hash</Name>
+    <FullName>File Monitoring Event - Modify With Unchanged Hash</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032409</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.39+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004038</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2444</CommonEventID>
+    <CommonEventName>File Monitoring Event - Modify</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Modify</Name>
+    <FullName>File Monitoring Event - Modify</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2444</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.393+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004039</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032404</CommonEventID>
+    <CommonEventName>File Monitoring Event - Hidden Attribute Set</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Hidden Attribute Set</Name>
+    <FullName>File Monitoring Event - Hidden Attribute Set</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032404</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.393+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004040</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032403</CommonEventID>
+    <CommonEventName>File Monitoring Event - Hidden Attribute Clear</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Hidden Attribute Clear</Name>
+    <FullName>File Monitoring Event - Hidden Attribute Clear</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032403</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.397+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004041</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032412</CommonEventID>
+    <CommonEventName>File Monitoring Event - Group Changed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Group Changed</Name>
+    <FullName>File Monitoring Event - Group Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032412</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.397+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004042</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1032411</CommonEventID>
+    <CommonEventName>File Monitoring Event - Discretionary ACL Changed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Discretionary ACL Changed</Name>
+    <FullName>File Monitoring Event - Discretionary ACL Changed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1032411</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.397+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004043</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2446</CommonEventID>
+    <CommonEventName>File Monitoring Event - Delete</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Delete</Name>
+    <FullName>File Monitoring Event - Delete</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2446</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.4+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004044</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035876</CommonEventID>
+    <CommonEventName>File Monitoring Event - Attributes</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Attributes</Name>
+    <FullName>File Monitoring Event - Attributes</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035876</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.4+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004045</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2445</CommonEventID>
+    <CommonEventName>File Monitoring Event - Add</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Add</Name>
+    <FullName>File Monitoring Event - Add</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2445</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.4+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004046</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>2443</CommonEventID>
+    <CommonEventName>File Monitoring Event - Access</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Access</Name>
+    <FullName>File Monitoring Event - Access</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>2</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=2443</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.403+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004047</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035602</CommonEventID>
+    <CommonEventName>AIE: CSF: Term Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>CSF: Term Act Access Success Rule</Name>
+    <FullName>CSF: Term Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035602</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.403+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004048</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035547</CommonEventID>
+    <CommonEventName>AIE: CSF: Door Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>CSF: Door Access Success Rule</Name>
+    <FullName>CSF: Door Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035547</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.407+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004049</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035543</CommonEventID>
+    <CommonEventName>AIE: CSF: Default Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>CSF: Default Act Access Success Rule</Name>
+    <FullName>CSF: Default Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035543</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.407+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004050</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1035534</CommonEventID>
+    <CommonEventName>AIE: CSF: Audit Log Cleared Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>CSF: Audit Log Cleared Rule</Name>
+    <FullName>CSF: Audit Log Cleared Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1035534</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.41+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004051</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1001069</CommonEventID>
+    <CommonEventName>Command Executed</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Command Executed</Name>
+    <FullName>Command Executed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1001069</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.41+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004052</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034739</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Vendor Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Vendor Act Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Vendor Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034739</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.41+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004053</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034737</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Term Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Term Act Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Term Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034737</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.413+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004054</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034738</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Shared Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Shared Act Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Shared Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034738</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.413+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004055</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034736</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Priv Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Priv Act Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Priv Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034736</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.417+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004056</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034780</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Door Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Door Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Door Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034780</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.417+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004057</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034735</CommonEventID>
+    <CommonEventName>AIE: NERC-CIP : Default Act Access Success Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Default Act Access Success Rule</Name>
+    <FullName>AIE: NERC-CIP : Default Act Access Success Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034735</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.42+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000004058</MPERuleID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RuleStatus>1</RuleStatus>
+    <StatusName>Production</StatusName>
+    <CommonEventID>1034994</CommonEventID>
+    <CommonEventName>AIE: GPG-13 : Audit Log Cleared Rule</CommonEventName>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: GPG-13 : Audit Log Cleared Rule</Name>
+    <FullName>AIE: GPG-13 : Audit Log Cleared Rule</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>=1034994</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-02-26T17:48:59.42+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>0</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>*</MapVMID>
+    <MapSName>*</MapSName>
+    <MapDName>*</MapDName>
+    <MapSPort>*</MapSPort>
+    <MapDPort>*</MapDPort>
+    <MapProtocolID>*</MapProtocolID>
+    <MapLogin>*</MapLogin>
+    <MapAccount>*</MapAccount>
+    <MapGroup>*</MapGroup>
+    <MapDomain>*</MapDomain>
+    <MapSession>*</MapSession>
+    <MapObject>*</MapObject>
+    <MapURL>*</MapURL>
+    <MapSender>*</MapSender>
+    <MapRecipient>*</MapRecipient>
+    <MapSubject>*</MapSubject>
+    <MapBytesIn>*</MapBytesIn>
+    <MapBytesOut>*</MapBytesOut>
+    <MapItemsIn>*</MapItemsIn>
+    <MapItemsOut>*</MapItemsOut>
+    <MapAmount>*</MapAmount>
+    <MapQuantity>*</MapQuantity>
+    <MapRate>*</MapRate>
+    <MapSize>*</MapSize>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <RegexTagged>Account="(?&lt;account&gt;[^"]*)" Action="(?&lt;action&gt;[^"]*)" Aggregate="[^"]*" Amount="(?&lt;amount&gt;[^"]*)" Archive="[^"]*" BytesIn="(?&lt;bytesin&gt;[^"]*)" BytesOut="(?&lt;bytesout&gt;[^"]*)" CollectionSequence="[^"]*" Command="(?&lt;command&gt;[^"]*)" CommonEventID="(?&lt;tag1&gt;[^"]*)" CVE="(?&lt;cve&gt;[^"]*)" DateInserted="[^"]*" DHostID="[^"]*" DHostZone="[^"]*" DInterface="(?&lt;dinterface&gt;[^"]*)" DIP="(?&lt;dip&gt;[^"]*)" Direction="[^"]*" DLocationKey="[^"]*" DMAC="(?&lt;dmac&gt;[^"]*)" DName="(?&lt;dname&gt;[^"]*)" DNameParsed="[^"]*" DNameResolved="[^"]*" DNATIP="(?&lt;dnatip&gt;[^"]*)" DNATPort="(?&lt;dnatport&gt;[^"]*)" DNetworkID="[^"]*" Domain="(?&lt;domain&gt;[^"]*)" DomainOrigin="(?&lt;domainorigin&gt;[^"]*)" DPort="(?&lt;dport&gt;[^"]*)" DropLog="[^"]*" DropRaw="[^"]*" Duration="(?&lt;duration&gt;[^"]*)" EntityId="[^"]*" EventClassification="[^"]*" EventCommonEventID="[^"]*" FalseAlarmRating="[^"]*" Forward="[^"]*" ForwardToLogMart="[^"]*" GLPRAssignedRBP="[^"]*" Group="(?&lt;group&gt;[^"]*)" HasBeenInserted_EMDB="[^"]*" HasBeenQueued_Archiving="[^"]*" HasBeenQueued_EventProcessor="[^"]*" HasBeenQueued_LogProcessor="[^"]*" Hash="(?&lt;hash&gt;[^"]*)" HostID="[^"]*" IgnoreGlobalRBPCriteria="[^"]*" IsDNameParsedValue="[^"]*" IsRemote="[^"]*" IsSNameParsedValue="[^"]*" ItemsIn="(?&lt;itemsin&gt;[^"]*)" ItemsOut="(?&lt;itemsout&gt;[^"]*)" Login="(?&lt;login&gt;[^"]*)" LogMartMode="[^"]*" MediatorMsgID="[^"]*" MediatorSessionID="[^"]*" MPERuleID="(?&lt;tag2&gt;[^"]*)" MsgClassID="1060" MsgCount="[^"]*" MsgDate="[^"]*" MsgDateOrigin="[^"]*" MsgSourceHostID="[^"]*" MsgSourceID="[^"]*" NormalMsgDate="[^"]*" Object="(?&lt;object&gt;[^"]*)" ObjectName="(?&lt;objectname&gt;[^"]*)" ObjectType="(?&lt;objectype&gt;[^"]*)" ParentProcessId="(?&lt;parentprocessid&gt;[^"]*)" ParentProcessName="(?&lt;parentprocessname&gt;[^"]*)" ParentProcessPath="(?&lt;parentprocesspath&gt;[^"]*)" PID="(?&lt;pid&gt;[^"]*)" Policy="(?&lt;policy&gt;[^"]*)" Priority="[^"]*" Process="(?&lt;process&gt;[^"]*)" ProtocolID="(?&lt;protnum&gt;[^"]*)" Quantity="(?&lt;quantity&gt;[^"]*)" Rate="(?&lt;rate&gt;[^"]*)" Reason="(?&lt;reason&gt;[^"]*)" Recipient="(?&lt;recipient&gt;[^"]*)" RecipientIdentity="[^"]*" RecipientIdentityCompany="[^"]*" RecipientIdentityDepartment="[^"]*" RecipientIdentityDomain="[^"]*" RecipientIdentityID="[^"]*" RecipientIdentityTitle="[^"]*" ResponseCode="(?&lt;responsecode&gt;[^"]*)" Result="(?&lt;result&gt;[^"]*)" RiskRating="[^"]*" Sender="(?&lt;sender&gt;[^"]*)" SenderIdentity="[^"]*" SenderIdentityCompany="[^"]*" SenderIdentityDepartment="[^"]*" SenderIdentityDomain="[^"]*" SenderIdentityID="[^"]*" SenderIdentityTitle="[^"]*" SerialNumber="(?&lt;serialnumber&gt;[^"]*)" ServiceID="[^"]*" Session="(?&lt;session&gt;[^"]*)" SessionType="(?&lt;sessiontype&gt;[^"]*)" Severity="(?&lt;severity&gt;[^"]*)" SHostID="[^"]*" SHostZone="[^"]*" SInterface="[^"]*" SIP="(?&lt;sip&gt;[^"]*)" Size="(?&lt;size&gt;[^"]*)" SLocationKey="[^"]*" SMAC="(?&lt;smac&gt;[^"]*)" SName="(?&lt;sname&gt;[^"]*)" SNameParsed="[^"]*" SNameResolved="[^"]*" SNATIP="(?&lt;snatip&gt;[^"]*)" SNATPort="(?&lt;snatport&gt;[^"]*)" SNetworkID="[^"]*" SPort="(?&lt;sport&gt;[^"]*)" Status="(?&lt;status&gt;[^"]*)" Subject="(?&lt;subject&gt;[^"]*)" SystemMonitorID="[^"]*" ThreatId="(?&lt;threatid&gt;[^"]*)" ThreatName="(?&lt;threatname&gt;[^"]*)" UniqueID="[^"]*" URL="(?&lt;url&gt;[^"]*)" UserAgent="(?&lt;useragent&gt;[^"]*)" UserImpactedIdentity="[^"]*" UserImpactedIdentityCompany="[^"]*" UserImpactedIdentityDomain="[^"]*" UserImpactedIdentityID="[^"]*" UserImpactedIdentityTitle="[^"]*" UserOriginIdentity="[^"]*" UserOriginIdentityCompany="[^"]*" UserOriginIdentityDepartment="[^"]*" UserOriginIdentityDomain="[^"]*" UserOriginIdentityID="[^"]*" UserOriginIdentityTitle="[^"]*" VendorInfo="(?&lt;vendorinfo&gt;[^"]*)" VendorMsgID="(?&lt;vmid&gt;[^"]*)" Version="(?&lt;version&gt;[^"]*)" RawLog="[^$]*"</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-03-01T00:24:58.297+00:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <MPERuleRegexID>1000000029</MPERuleRegexID>
+    <SortOrder>4</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>2443</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Access</Name>
+    <ShortDesc>A file integrity monitoring program detected a monitored file was accessed (read).</ShortDesc>
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2444</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Modify</Name>
+    <ShortDesc>A file integrity monitoring program detected a monitored file was modified.</ShortDesc>
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2445</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Add</Name>
+    <ShortDesc>A file integrity monitoring program detected a file was added to a monitored directory.</ShortDesc>
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2446</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Delete</Name>
+    <ShortDesc>A file integrity monitoring program detected a monitored file was deleted.</ShortDesc>
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>2447</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Permissions</Name>
+    <ShortDesc>A file integrity monitoring program detected a monitored file had its access control (permissions) modified.</ShortDesc>
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>8963</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Closed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>8966</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Created</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>10410</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>10441</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Renamed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>19872</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Moved</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>19949</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Attribute Modified</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>20886</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>General Logging Information</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2018-02-23T03:00:41.12+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1001069</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Command Executed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1021382</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Accessed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1029892</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Read</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032397</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Deleted/Removed</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032398</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Added</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032399</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Initialized</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032400</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Object Downloaded</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032402</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Rename</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032403</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Hidden Attribute Clear</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032404</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Hidden Attribute Set</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032405</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - READ-ONLY Attribute Clear</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032406</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - READ-ONLY Attribute Set</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032407</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - SYSTEM Attribute Clear</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032408</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - SYSTEM Attribute Set</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032409</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Modify With Unchanged Hash</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032410</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - No Modify But Hash Changed</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032411</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Discretionary ACL Changed</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032412</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Group Changed</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032413</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Owner Changed</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032414</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - System ACL Changed</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034658</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>Log Cleared</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034704</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: PCI-DSS: Audit Log Cleared Alert Rule</Name>
+    <ShortDesc>AIE: This AIE Rule alerts on the occurrence of audit log clearing in direct support of PCI-DSS Controls: 10.2.6</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034735</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Default Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on default account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034736</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Priv Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on privileged account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034737</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Term Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on terminated account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034738</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Shared Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on shared account access success activity (success object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034739</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Vendor Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on vendor account access Success activity (Success object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034780</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP : Door Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on physical door access within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034868</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NIST 800-53 : Audit Log Cleared Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on audit log clearing.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034877</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NIST 800-53 : Default Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on default account access success activity(object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034881</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NIST 800-53 : Door Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on physical door access.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034933</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NIST 800-53 : Term Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on terminated account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034994</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: GPG-13 : Audit Log Cleared Rule</Name>
+    <ShortDesc>AIE: This AIE Rule directly supports GPG-13 control PMC10.1 by alerting on all audit log clearings.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035534</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: CSF: Audit Log Cleared Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on audit log clearing.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035543</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: CSF: Default Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on default account access success activity(object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035547</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: CSF: Door Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on physical door access.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035602</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: CSF: Term Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on terminated account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035852</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: ISO-27001: Term Act Access Success</Name>
+    <ShortDesc>AIE: This AIE Rule creates an alert and  provides details on terminated account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035876</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>File Monitoring Event - Attributes</Name>
+    <ShortDesc />
+    <DefRiskRating>2</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035884</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: NERC-CIP: Physical Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule creates events of physical security authentication or access success across the Physical Security Perimeter.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036050</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: HSS: Door Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on physical door access within the organization infrastructure.  Drilldowns from this rule can provide good door activity tracking evidence for sending to Cases, within Case Management.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036057</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: HSS: Default Act Access Success Rule</Name>
+    <ShortDesc>AIE: This AIE Rule provides details on default account access success (object access/add/close/create/delete/download/execute/initialize/modify/move/read/rename/remove) within the organization infrastructure.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036157</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Audit Log Cleared Alert</Name>
+    <ShortDesc>AIE: This AIE Rule alerts on the occurrence of audit log clearing.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036172</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: HR Payroll Acct Accs Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event around access success for HR or Payroll accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036177</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Priv Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of privileged accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036180</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Vendor Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of vendor accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036186</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Default Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of default and generic accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036192</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Shared Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of shared accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036198</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: BU Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of business user accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036204</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: IT Acct Access Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event around access success for IT user accounts (list) within the Critical and Production environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036214</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: MAS: Online Banking Accs Success Rule</Name>
+    <ShortDesc>AIE: This rule creates an event for access success of accounts within the Online Banking environments (entity structure).</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1036223</CommonEventID>
+    <MsgClassID>1060</MsgClassID>
+    <Name>AIE: PCI-DSS: Audit Log Cleared Alert</Name>
+    <ShortDesc>AIE: This AIE Rule alerts on the occurrence of audit log clearing.</ShortDesc>
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <Name>LDS -  MoM 7.3.x v3</Name>
+    <FullName>LDS -  MoM 7.3.x v3</FullName>
+    <Abbreviation>MoM 7.3.x v3</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2018-02-26T17:44:54.037+00:00</DateUpdated>
+    <MsgSourceFormat>1</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

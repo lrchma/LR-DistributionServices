@@ -2,32 +2,32 @@
 <RuleDataset>
   <ExportInfo>
     <ExportConsoleVersion>7.3.2.0</ExportConsoleVersion>
-    <KBVersion>7.1.422.2</KBVersion>
-    <DateExported>2018-02-21T09:33:39.9825213-08:00</DateExported>
+    <KBVersion>7.1.431.1</KBVersion>
+    <DateExported>2018-03-01T00:27:57.9509784+00:00</DateExported>
     <ExportLicense>646</ExportLicense>
     <ExportUser>logrhythmadmin</ExportUser>
   </ExportInfo>
   <MPERule>
-    <MPERuleID>1000000088</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004167</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1030942</CommonEventID>
-    <CommonEventName>Authentication Activity</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Audit/Authentication Success (1020)</Name>
-    <FullName>Audit/Authentication Success (1020)</FullName>
+    <CommonEventID>2435</CommonEventID>
+    <CommonEventName>User Account Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Audit-Authentication-AccountCreated-1100</Name>
+    <FullName>Audit-Authentication-AccountCreated-1100</FullName>
     <BaseRule>1</BaseRule>
     <DefMsgTTL>32</DefMsgTTL>
     <DefMsgArchiveMode>2</DefMsgArchiveMode>
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T15:31:16.983-08:00</DateUpdated>
+    <DateUpdated>2018-03-01T00:24:58.3+00:00</DateUpdated>
     <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
@@ -41,15 +41,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000090</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004160</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1030645</CommonEventID>
-    <CommonEventName>User Logon</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>User Logon</Name>
-    <FullName>User Logon</FullName>
+    <CommonEventID>2435</CommonEventID>
+    <CommonEventName>User Account Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>User Account Created</Name>
+    <FullName>User Account Created</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -58,13 +58,12 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1030645</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=2435</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T00:53:04.32-08:00</DateUpdated>
+    <DateUpdated>2018-02-26T18:37:29.2+00:00</DateUpdated>
     <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
@@ -76,8 +75,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -88,7 +85,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -105,15 +101,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000091</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004161</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1030646</CommonEventID>
-    <CommonEventName>User Logoff</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>User Logoff</Name>
-    <FullName>User Logoff</FullName>
+    <CommonEventID>18836</CommonEventID>
+    <CommonEventName>Role Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Role Created</Name>
+    <FullName>Role Created</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -122,14 +118,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1030646</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=18836</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T00:53:28.557-08:00</DateUpdated>
-    <SortOrder>2</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.2+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -140,8 +135,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -152,7 +145,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -169,15 +161,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000092</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004162</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1030942</CommonEventID>
-    <CommonEventName>Authentication Activity</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Authentication Activity</Name>
-    <FullName>Authentication Activity</FullName>
+    <CommonEventID>1036207</CommonEventID>
+    <CommonEventName>AIE: MAS: Account Created Alert</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>MAS: Account Created Alert</Name>
+    <FullName>MAS: Account Created Alert</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -186,14 +178,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1030942</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=1036207</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T00:56:16.937-08:00</DateUpdated>
-    <SortOrder>3</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.203+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -204,8 +195,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -216,7 +205,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -233,15 +221,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000093</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004163</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1032790</CommonEventID>
-    <CommonEventName>Service Logon</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Service Logon</Name>
-    <FullName>Service Logon</FullName>
+    <CommonEventID>2455</CommonEventID>
+    <CommonEventName>Group Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Group Created</Name>
+    <FullName>Group Created</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -250,14 +238,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1032790</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=2455</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T00:58:47.557-08:00</DateUpdated>
-    <SortOrder>4</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.203+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -268,8 +255,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -280,7 +265,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -297,15 +281,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000094</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004164</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1032791</CommonEventID>
-    <CommonEventName>Service Logoff</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Service Logoff</Name>
-    <FullName>Service Logoff</FullName>
+    <CommonEventID>2461</CommonEventID>
+    <CommonEventName>Computer Account Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Computer Account Created</Name>
+    <FullName>Computer Account Created</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -314,14 +298,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1032791</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=2461</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T00:59:12.987-08:00</DateUpdated>
-    <SortOrder>5</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.207+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -332,8 +315,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -344,7 +325,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -361,15 +341,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000095</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004165</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1032792</CommonEventID>
-    <CommonEventName>Computer Logon</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Computer Logon</Name>
-    <FullName>Computer Logon</FullName>
+    <CommonEventID>1034989</CommonEventID>
+    <CommonEventName>AIE: GPG-13 : Account Created Rule</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>AIE: GPG-13 : Account Created Rule</Name>
+    <FullName>AIE: GPG-13 : Account Created Rule</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -378,14 +358,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1032792</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=1034989</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T12:40:15.51-08:00</DateUpdated>
-    <SortOrder>6</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.207+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -396,8 +375,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -408,7 +385,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -425,15 +401,15 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERule>
-    <MPERuleID>1000000096</MPERuleID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
+    <MPERuleID>1000004166</MPERuleID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
     <RuleStatus>1</RuleStatus>
     <StatusName>Production</StatusName>
-    <CommonEventID>1032793</CommonEventID>
-    <CommonEventName>Computer Logoff</CommonEventName>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Computer Logoff</Name>
-    <FullName>Computer Logoff</FullName>
+    <CommonEventID>-1100364</CommonEventID>
+    <CommonEventName>AD Group User Created</CommonEventName>
+    <MsgClassID>1100</MsgClassID>
+    <Name>AD Group User Created</Name>
+    <FullName>AD Group User Created</FullName>
     <BaseRule>0</BaseRule>
     <ShortDesc />
     <LongDesc />
@@ -442,14 +418,13 @@
     <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
     <DefForwarding>1</DefForwarding>
     <DefForwardingBool>true</DefForwardingBool>
-    <DefRiskRating>0</DefRiskRating>
+    <DefRiskRating>3</DefRiskRating>
     <DefFalseAlarmRating>0</DefFalseAlarmRating>
-    <MapTag1>=1032793</MapTag1>
-    <MapTag2>*</MapTag2>
+    <MapTag1>=-1100364</MapTag1>
     <InheritTech>1</InheritTech>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T12:40:43.077-08:00</DateUpdated>
-    <SortOrder>7</SortOrder>
+    <DateUpdated>2018-02-26T18:37:29.207+00:00</DateUpdated>
+    <SortOrder>1</SortOrder>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
     <SHostIs>0</SHostIs>
@@ -460,8 +435,6 @@
     <IsSystemRule>No</IsSystemRule>
     <NewRuleRecordType>0</NewRuleRecordType>
     <MapVMID>*</MapVMID>
-    <MapSIP>*</MapSIP>
-    <MapDIP>*</MapDIP>
     <MapSName>*</MapSName>
     <MapDName>*</MapDName>
     <MapSPort>*</MapSPort>
@@ -472,7 +445,6 @@
     <MapGroup>*</MapGroup>
     <MapDomain>*</MapDomain>
     <MapSession>*</MapSession>
-    <MapProcess>*</MapProcess>
     <MapObject>*</MapObject>
     <MapURL>*</MapURL>
     <MapSender>*</MapSender>
@@ -489,95 +461,95 @@
     <DefLogMartMode>13627389</DefLogMartMode>
   </MPERule>
   <MPERuleRegex>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
-    <RegexTagged>logrhythm\:\sAccount="(?&lt;account&gt;[^"]*)"\sAction="(?&lt;action&gt;[^"]*)"\sAggregate="[^"]*"\sAmount="(?&lt;amount&gt;[^"]*)"\sArchive="[^"]*"\sBytesIn="(?&lt;bytesin&gt;[^"]*)"\sBytesOut="(?&lt;bytesout&gt;[^"]*)"\sCollectionSequence="[^"]*"\sCommand="(?&lt;command&gt;[^"]*)"\sCommonEventID="(?&lt;tag1&gt;[^"]*)"\sCVE="(?&lt;cve&gt;[^"]*)"\sDateInserted="[^"]*"\sDHostID="[^"]*"\sDHostZone="[^"]*"\sDInterface="(?&lt;dinterface&gt;[^"]*)"\sDIP="(?&lt;dip&gt;[^"]*)"\sDirection="[^"]*"\sDLocationKey="[^"]*"\sDMAC="(?&lt;dmac&gt;[^"]*)"\sDName="(?&lt;dname&gt;[^"]*)"\sDNameParsed="[^"]*"\sDNameResolved="[^"]*"\sDNATIP="(?&lt;dnatip&gt;[^"]*)"\sDNATPort="(?&lt;dnatport&gt;[^"]*)"\sDNetworkID="[^"]*"\sDomain="(?&lt;domain&gt;[^"]*)"\sDomainOrigin="(?&lt;domainorigin&gt;[^"]*)"\sDPort="(?&lt;dport&gt;[^"]*)"\sDropLog="[^"]*"\sDropRaw="[^"]*"\sDuration="(?&lt;duration&gt;[^"]*)"\sEntityId="[^"]*" EventClassification="[^"]*" EventCommonEventID="[^"]*" FalseAlarmRating="[^"]*" Forward="[^"]*" ForwardToLogMart="[^"]*" GLPRAssignedRBP="[^"]*" Group="(?&lt;group&gt;[^"]*)" HasBeenInserted_EMDB="[^"]*" HasBeenQueued_Archiving="[^"]*" HasBeenQueued_EventProcessor="[^"]*" HasBeenQueued_LogProcessor="[^"]*" Hash="(?&lt;hash&gt;[^"]*)" HostID="[^"]*" IgnoreGlobalRBPCriteria="[^"]*" IsDNameParsedValue="[^"]*" IsRemote="[^"]*" IsSNameParsedValue="[^"]*" ItemsIn="(?&lt;itemsin&gt;[^"]*)" ItemsOut="(?&lt;itemsout&gt;[^"]*)" Login="(?&lt;login&gt;[^"]*)" LogMartMode="[^"]*" MediatorMsgID="[^"]*" MediatorSessionID="[^"]*" MPERuleID="(?&lt;tag2&gt;[^"]*)" MsgClassID="1020" MsgCount="[^"]*" MsgDate="[^"]*" MsgDateOrigin="[^"]*" MsgSourceHostID="[^"]*" MsgSourceID="[^"]*" NormalMsgDate="[^"]*" Object="(?&lt;object&gt;[^"]*)" ObjectName="(?&lt;objectname&gt;[^"]*)" ObjectType="(?&lt;objectype&gt;[^"]*)" ParentProcessId="(?&lt;parentprocessid&gt;[^"]*)" ParentProcessName="(?&lt;parentprocessname&gt;[^"]*)" ParentProcessPath="(?&lt;parentprocesspath&gt;[^"]*)" PID="(?&lt;pid&gt;[^"]*)" Policy="(?&lt;policy&gt;[^"]*)" Priority="[^"]*" Process="(?&lt;process&gt;[^"]*)" ProtocolID="(?&lt;protnum&gt;[^"]*)" Quantity="(?&lt;quantity&gt;[^"]*)" Rate="(?&lt;rate&gt;[^"]*)" Reason="(?&lt;reason&gt;[^"]*)" Recipient="(?&lt;recipient&gt;[^"]*)" RecipientIdentity="[^"]*" RecipientIdentityCompany="[^"]*" RecipientIdentityDepartment="[^"]*" RecipientIdentityDomain="[^"]*" RecipientIdentityID="[^"]*" RecipientIdentityTitle="[^"]*" ResponseCode="(?&lt;responsecode&gt;[^"]*)" Result="(?&lt;result&gt;[^"]*)" RiskRating="[^"]*" Sender="(?&lt;sender&gt;[^"]*)" SenderIdentity="[^"]*" SenderIdentityCompany="[^"]*" SenderIdentityDepartment="[^"]*" SenderIdentityDomain="[^"]*" SenderIdentityID="[^"]*" SenderIdentityTitle="[^"]*" SerialNumber="(?&lt;serialnumber&gt;[^"]*)" ServiceID="[^"]*" Session="(?&lt;session&gt;[^"]*)" SessionType="(?&lt;sessiontype&gt;[^"]*)" Severity="(?&lt;severity&gt;[^"]*)" SHostID="[^"]*" SHostZone="[^"]*" SInterface="[^"]*" SIP="(?&lt;sip&gt;[^"]*)" Size="(?&lt;size&gt;[^"]*)" SLocationKey="[^"]*" SMAC="(?&lt;smac&gt;[^"]*)" SName="(?&lt;sname&gt;[^"]*)" SNameParsed="[^"]*" SNameResolved="[^"]*" SNATIP="(?&lt;snatip&gt;[^"]*)" SNATPort="(?&lt;snatport&gt;[^"]*)" SNetworkID="[^"]*" SPort="(?&lt;sport&gt;[^"]*)" Status="(?&lt;status&gt;[^"]*)" Subject="(?&lt;subject&gt;[^"]*)" SystemMonitorID="[^"]*" ThreatId="(?&lt;threatid&gt;[^"]*)" ThreatName="(?&lt;threatname&gt;[^"]*)" UniqueID="[^"]*" URL="(?&lt;url&gt;[^"]*)" UserAgent="(?&lt;useragent&gt;[^"]*)" UserImpactedIdentity="[^"]*" UserImpactedIdentityCompany="[^"]*" UserImpactedIdentityDomain="[^"]*" UserImpactedIdentityID="[^"]*" UserImpactedIdentityTitle="[^"]*" UserOriginIdentity="[^"]*" UserOriginIdentityCompany="[^"]*" UserOriginIdentityDepartment="[^"]*" UserOriginIdentityDomain="[^"]*" UserOriginIdentityID="[^"]*" UserOriginIdentityTitle="[^"]*" VendorInfo="(?&lt;vendorinfo&gt;[^"]*)" VendorMsgID="(?&lt;vmid&gt;[^"]*)" Version="(?&lt;version&gt;[^"]*)" RawLog="[^"]*"</RegexTagged>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
+    <RegexTagged>Account="(?&lt;account&gt;[^"]*)" Action="(?&lt;action&gt;[^"]*)" Aggregate="[^"]*" Amount="(?&lt;amount&gt;[^"]*)" Archive="[^"]*" BytesIn="(?&lt;bytesin&gt;[^"]*)" BytesOut="(?&lt;bytesout&gt;[^"]*)" CollectionSequence="[^"]*" Command="(?&lt;command&gt;[^"]*)" CommonEventID="(?&lt;tag1&gt;[^"]*)" CVE="(?&lt;cve&gt;[^"]*)" DateInserted="[^"]*" DHostID="[^"]*" DHostZone="[^"]*" DInterface="(?&lt;dinterface&gt;[^"]*)" DIP="(?&lt;dip&gt;[^"]*)" Direction="[^"]*" DLocationKey="[^"]*" DMAC="(?&lt;dmac&gt;[^"]*)" DName="(?&lt;dname&gt;[^"]*)" DNameParsed="[^"]*" DNameResolved="[^"]*" DNATIP="(?&lt;dnatip&gt;[^"]*)" DNATPort="(?&lt;dnatport&gt;[^"]*)" DNetworkID="[^"]*" Domain="(?&lt;domain&gt;[^"]*)" DomainOrigin="(?&lt;domainorigin&gt;[^"]*)" DPort="(?&lt;dport&gt;[^"]*)" DropLog="[^"]*" DropRaw="[^"]*" Duration="(?&lt;duration&gt;[^"]*)" EntityId="[^"]*" EventClassification="[^"]*" EventCommonEventID="[^"]*" FalseAlarmRating="[^"]*" Forward="[^"]*" ForwardToLogMart="[^"]*" GLPRAssignedRBP="[^"]*" Group="(?&lt;group&gt;[^"]*)" HasBeenInserted_EMDB="[^"]*" HasBeenQueued_Archiving="[^"]*" HasBeenQueued_EventProcessor="[^"]*" HasBeenQueued_LogProcessor="[^"]*" Hash="(?&lt;hash&gt;[^"]*)" HostID="[^"]*" IgnoreGlobalRBPCriteria="[^"]*" IsDNameParsedValue="[^"]*" IsRemote="[^"]*" IsSNameParsedValue="[^"]*" ItemsIn="(?&lt;itemsin&gt;[^"]*)" ItemsOut="(?&lt;itemsout&gt;[^"]*)" Login="(?&lt;login&gt;[^"]*)" LogMartMode="[^"]*" MediatorMsgID="[^"]*" MediatorSessionID="[^"]*" MPERuleID="(?&lt;tag2&gt;[^"]*)" MsgClassID="1100" MsgCount="[^"]*" MsgDate="[^"]*" MsgDateOrigin="[^"]*" MsgSourceHostID="[^"]*" MsgSourceID="[^"]*" NormalMsgDate="[^"]*" Object="(?&lt;object&gt;[^"]*)" ObjectName="(?&lt;objectname&gt;[^"]*)" ObjectType="(?&lt;objectype&gt;[^"]*)" ParentProcessId="(?&lt;parentprocessid&gt;[^"]*)" ParentProcessName="(?&lt;parentprocessname&gt;[^"]*)" ParentProcessPath="(?&lt;parentprocesspath&gt;[^"]*)" PID="(?&lt;pid&gt;[^"]*)" Policy="(?&lt;policy&gt;[^"]*)" Priority="[^"]*" Process="(?&lt;process&gt;[^"]*)" ProtocolID="(?&lt;protnum&gt;[^"]*)" Quantity="(?&lt;quantity&gt;[^"]*)" Rate="(?&lt;rate&gt;[^"]*)" Reason="(?&lt;reason&gt;[^"]*)" Recipient="(?&lt;recipient&gt;[^"]*)" RecipientIdentity="[^"]*" RecipientIdentityCompany="[^"]*" RecipientIdentityDepartment="[^"]*" RecipientIdentityDomain="[^"]*" RecipientIdentityID="[^"]*" RecipientIdentityTitle="[^"]*" ResponseCode="(?&lt;responsecode&gt;[^"]*)" Result="(?&lt;result&gt;[^"]*)" RiskRating="[^"]*" Sender="(?&lt;sender&gt;[^"]*)" SenderIdentity="[^"]*" SenderIdentityCompany="[^"]*" SenderIdentityDepartment="[^"]*" SenderIdentityDomain="[^"]*" SenderIdentityID="[^"]*" SenderIdentityTitle="[^"]*" SerialNumber="(?&lt;serialnumber&gt;[^"]*)" ServiceID="[^"]*" Session="(?&lt;session&gt;[^"]*)" SessionType="(?&lt;sessiontype&gt;[^"]*)" Severity="(?&lt;severity&gt;[^"]*)" SHostID="[^"]*" SHostZone="[^"]*" SInterface="[^"]*" SIP="(?&lt;sip&gt;[^"]*)" Size="(?&lt;size&gt;[^"]*)" SLocationKey="[^"]*" SMAC="(?&lt;smac&gt;[^"]*)" SName="(?&lt;sname&gt;[^"]*)" SNameParsed="[^"]*" SNameResolved="[^"]*" SNATIP="(?&lt;snatip&gt;[^"]*)" SNATPort="(?&lt;snatport&gt;[^"]*)" SNetworkID="[^"]*" SPort="(?&lt;sport&gt;[^"]*)" Status="(?&lt;status&gt;[^"]*)" Subject="(?&lt;subject&gt;[^"]*)" SystemMonitorID="[^"]*" ThreatId="(?&lt;threatid&gt;[^"]*)" ThreatName="(?&lt;threatname&gt;[^"]*)" UniqueID="[^"]*" URL="(?&lt;url&gt;[^"]*)" UserAgent="(?&lt;useragent&gt;[^"]*)" UserImpactedIdentity="[^"]*" UserImpactedIdentityCompany="[^"]*" UserImpactedIdentityDomain="[^"]*" UserImpactedIdentityID="[^"]*" UserImpactedIdentityTitle="[^"]*" UserOriginIdentity="[^"]*" UserOriginIdentityCompany="[^"]*" UserOriginIdentityDepartment="[^"]*" UserOriginIdentityDomain="[^"]*" UserOriginIdentityID="[^"]*" UserOriginIdentityTitle="[^"]*" VendorInfo="(?&lt;vendorinfo&gt;[^"]*)" VendorMsgID="(?&lt;vmid&gt;[^"]*)" Version="(?&lt;version&gt;[^"]*)" RawLog="[^$]*"</RegexTagged>
     <IgnoreCase>1</IgnoreCase>
     <Multiline>0</Multiline>
     <RecordStatus>1</RecordStatus>
-    <DateUpdated>2018-02-21T15:31:16.983-08:00</DateUpdated>
+    <DateUpdated>2018-03-01T00:24:58.3+00:00</DateUpdated>
     <PerfMonMode>1</PerfMonMode>
     <VersionMajor>4</VersionMajor>
     <VersionMinor>1</VersionMinor>
   </MPERuleRegex>
   <MPERuleToMST>
-    <MsgSourceTypeID>1000000009</MsgSourceTypeID>
-    <MPERuleRegexID>1000000036</MPERuleRegexID>
-    <SortOrder>2</SortOrder>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <MPERuleRegexID>1000000032</MPERuleRegexID>
+    <SortOrder>7</SortOrder>
     <AutoSort>0</AutoSort>
   </MPERuleToMST>
   <CommonEvent>
-    <CommonEventID>1030645</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>User Logon</Name>
-    <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <CommonEventID>-1100364</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>AD Group User Created</Name>
+    <ShortDesc>A LogRhythm user was created as the result of Active Directory group-based authroization synchronzation.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1030646</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>User Logoff</Name>
-    <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <CommonEventID>2435</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>User Account Created</Name>
+    <ShortDesc>A user account was created.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1030942</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Authentication Activity</Name>
+    <CommonEventID>2455</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Group Created</Name>
     <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1032790</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Service Logon</Name>
-    <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <CommonEventID>2461</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Computer Account Created</Name>
+    <ShortDesc>A computer account was created.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1032791</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Service Logoff</Name>
+    <CommonEventID>18836</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>Role Created</Name>
     <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1032792</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Computer Logon</Name>
-    <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <CommonEventID>1034989</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>AIE: GPG-13 : Account Created Rule</Name>
+    <ShortDesc>AIE: This AIE Rule directly supports GPG-13 controls PMC7.2, PMC7.6, PMC7.9, PMC7.10, and PMC12.1 by providing details of account creation activity.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <CommonEvent>
-    <CommonEventID>1032793</CommonEventID>
-    <MsgClassID>1020</MsgClassID>
-    <Name>Computer Logoff</Name>
-    <ShortDesc />
-    <DefRiskRating>0</DefRiskRating>
-    <DateUpdated>2017-10-26T18:04:54.33-07:00</DateUpdated>
+    <CommonEventID>1036207</CommonEventID>
+    <MsgClassID>1100</MsgClassID>
+    <Name>AIE: MAS: Account Created Alert</Name>
+    <ShortDesc>AIE: This rule creates an event around account creations as compared against existing user lists within LogRhythm and supplements User Access Management activities.</ShortDesc>
+    <DefRiskRating>3</DefRiskRating>
+    <DateUpdated>2017-12-07T22:48:27.31+00:00</DateUpdated>
     <RecordStatus>1</RecordStatus>
   </CommonEvent>
   <MsgSourceType>
-    <MsgSourceTypeID>1000000009</MsgSourceTypeID>
-    <Name>LDS - MoM</Name>
-    <FullName>LDS - MoM</FullName>
-    <Abbreviation>MoM</Abbreviation>
+    <MsgSourceTypeID>1000000010</MsgSourceTypeID>
+    <Name>LDS -  MoM 7.3.x v3</Name>
+    <FullName>LDS -  MoM 7.3.x v3</FullName>
+    <Abbreviation>MoM 7.3.x v3</Abbreviation>
     <ShortDesc />
     <LongDesc />
     <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
     <IsMst>1</IsMst>
-    <DateUpdated>2018-02-20T22:04:47.107-08:00</DateUpdated>
+    <DateUpdated>2018-02-26T17:44:54.037+00:00</DateUpdated>
     <MsgSourceFormat>1</MsgSourceFormat>
     <RecordStatus>1</RecordStatus>
   </MsgSourceType>
